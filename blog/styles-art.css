@@ -1,0 +1,195 @@
+/*Fuentes*/
+@font-face {
+  font-family: "DIN Next Rounded LT Pro Bold";
+  src: url("https://db.onlinewebfonts.com/t/6f1a075af8afe852f3e3c8a75e49bc31.eot");
+  src: url("https://db.onlinewebfonts.com/t/6f1a075af8afe852f3e3c8a75e49bc31.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/6f1a075af8afe852f3e3c8a75e49bc31.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/6f1a075af8afe852f3e3c8a75e49bc31.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/6f1a075af8afe852f3e3c8a75e49bc31.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/6f1a075af8afe852f3e3c8a75e49bc31.svg#DIN Next Rounded LT Pro Bold")format("svg");
+  }
+
+@font-face {
+  font-family: "DIN Next Rounded LT Pro Medium";
+  src: url("https://db.onlinewebfonts.com/t/f83531ae85a3fcd9345c4267e28833ee.eot");
+  src: url("https://db.onlinewebfonts.com/t/f83531ae85a3fcd9345c4267e28833ee.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/f83531ae85a3fcd9345c4267e28833ee.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/f83531ae85a3fcd9345c4267e28833ee.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/f83531ae85a3fcd9345c4267e28833ee.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/f83531ae85a3fcd9345c4267e28833ee.svg#DIN Next Rounded LT Pro Medium")format("svg");
+}
+
+@font-face {
+  font-family: "DIN Next Rounded LT Pro Light";
+  src: url("https://db.onlinewebfonts.com/t/8089d3cfb09b48b3e41555be1c9dc537.eot");
+  src: url("https://db.onlinewebfonts.com/t/8089d3cfb09b48b3e41555be1c9dc537.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/8089d3cfb09b48b3e41555be1c9dc537.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/8089d3cfb09b48b3e41555be1c9dc537.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/8089d3cfb09b48b3e41555be1c9dc537.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/8089d3cfb09b48b3e41555be1c9dc537.svg#DIN Next Rounded LT Pro Light")format("svg");
+}
+
+body, html {
+  margin: 0; 
+  padding: 0;
+}
+
+/*Header*/
+.header {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-family: "DIN Next Rounded LT Pro Bold";
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.nav {
+  padding: 1em;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-family: "DIN Next Rounded LT Pro Medium";
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor del artículo */
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos para el artículo */
+.article {
+  flex: 2;
+  padding: 20px;
+}
+
+.article h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el sidebar */
+.sidebar {
+  width: 250px; /* ancho del sidebar */
+  padding: 20px;
+  background-color: #f7f7f7; /* fondo gris claro */
+  border: 1px solid #ddd; /* borde gris claro */
+  border-radius: 10px; /* esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+.sidebar h2 {
+  font-size: 18px; /* tamaño de fuente del título */
+  margin-bottom: 10px; /* margen inferior del título */
+}
+
+.sidebar ul {
+  list-style: none; /* no mostrar estilos de lista */
+  padding: 0; /* no padding */
+  margin: 0; /* no margen */
+}
+
+.sidebar li {
+  margin-bottom: 10px; /* margen inferior de cada elemento de la lista */
+}
+
+.sidebar a {
+  text-decoration: none; /* no decorar texto de enlaces */
+  color: #337ab7; /* color azul claro de enlaces */
+}
+
+.sidebar a:hover {
+  color: #23527c; /* color azul más oscuro al pasar el mouse sobre enlaces */
+}
+
+/*Footer*/
+.footer {
+  background-color: #f2f2f2;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.copyright {
+font-family: "DIN Next Rounded LT Pro Light";
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+.footer-links {
+font-family: "DIN Next Rounded LT Pro Light";
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.footer-link-item {
+display: inline-block;
+margin-right: 20px;
+}
+
+.footer-link {
+color: #000000;
+text-decoration: none;
+transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+color: #ff0000;
+}
